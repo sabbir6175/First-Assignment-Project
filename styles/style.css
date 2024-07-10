@@ -5,6 +5,35 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+
+
+/* top area */
+#top-area{
+    max-width: 1140px;
+    margin: 35px auto;
+}
+#top-area nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+#top-area a{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1321;
+    letter-spacing: 1.5px;
+}
+#top-area .btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 17px 24px 17px 24px;
+    border-radius: 8px;
+    opacity: 0.8;
+    border: 1px solid gray;
+}
 /* header area work start */
 #header{
     width: 100%;
@@ -54,7 +83,7 @@ body{
     text-align: center;
 }
 .section .btn{
-    padding: 11px 30px;
+    padding: 16px 34px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
