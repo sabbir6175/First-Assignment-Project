@@ -47,6 +47,9 @@ body{
 
 /* share  */
 
+/* .height{
+    line-height: 30px;
+} */
 .text-center{
     text-align: center;
 }
@@ -166,10 +169,11 @@ main{
 
 #inspiration  iframe{
     width: 100%;
-    height: 550px;
+    height: 560px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+   padding: 32px;
 }
 /*next step present target */
 #present-target{
@@ -257,31 +261,60 @@ main{
     line-height: 30px;
 }
 /* Need support */
-#support{
-    margin-left: 140px;
-    margin-right: 140px;
+#support-section{
+    margin-left: 66px;
+    margin-right: 66px;
     border-radius: 10px;
     padding: 65px 70px;
-    background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
     background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#support-section input[type="text"] {
+    width: 301px;
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
 }
 .support-title{
     color: rgb(255, 255, 255);
 }
 .support-discription {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 30px;
 }
-.text{
-    padding: 10px 91px;
-    border-radius: 10px;
-    border: none;
+.form{
+    align-items: center;
 }
 .button{
-padding:10px 30px ;
-border-radius: 10px;
+    padding: 16px 0px;
+    border-radius: 10px;
     border: none;
+    width: 111px;
+}
+/* main area end */
 
+
+
+
+/* footer-area start */
+#footer-area{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 26px 209px;
+}
+#footer-area .last-text{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: rgb(13, 19, 33);
+}
+
+#footer-area .right-side{
+    gap: 20px;
 }
